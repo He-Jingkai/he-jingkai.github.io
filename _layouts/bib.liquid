@@ -145,12 +145,6 @@
       {% endif %}
     </div>
 
-    <!-- Note -->
-    {% if entry.note %}
-      <div class="note">
-        {{ entry.note | strip }}
-      </div>
-    {% endif %}
 
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
@@ -185,6 +179,13 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+
+    <!-- Note -->
+    {% if entry.note %}
+      <div class="note">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
