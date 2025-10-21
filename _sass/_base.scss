@@ -804,6 +804,13 @@ footer.sticky-bottom {
         }
       }
 
+      .note {
+        font-size: 0.9rem;
+        color: var(--global-text-color);
+        margin-top: 0.25rem;
+        font-style: italic;
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);

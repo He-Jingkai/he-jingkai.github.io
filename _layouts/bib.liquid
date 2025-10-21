@@ -145,6 +145,13 @@
       {% endif %}
     </div>
 
+    <!-- Note -->
+    {% if entry.note %}
+      <div class="note">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -177,9 +184,6 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
     </div>
 
     <!-- Links/Buttons -->
