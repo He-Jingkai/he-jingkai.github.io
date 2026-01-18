@@ -39,15 +39,22 @@
    selected={true}
 }
 
-@misc{yang2025heteropodxpuacceleratedinfrastructureoffloading,
+@inproceedings{10.1145/3772052.3772211,
    abbr={SoCC'25},
-   title={HeteroPod: XPU-Accelerated Infrastructure Offloading for Commodity Cloud-Native Applications}, 
-   author={Bicheng Yang and Jingkai He and Dong Du and Yubin Xia and Haibo Chen},
-   year={2025},
-   eprint={2503.23952},
-   archivePrefix={arXiv},
-   primaryClass={cs.OS},
-   booktitle = {ACM Symposium on Cloud Computing (SoCC'25)},
-   selected={true},
-   arxiv={2503.23952}
+   author = {Yang, Bicheng and He, Jingkai and Du, Dong and Xia, Yubin and Chen, Haibo},
+   title = {Offloading Cloud-Native Infrastructure with XpuPod},
+   year = {2026},
+   isbn = {9798400722769},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   url = {https://doi.org/10.1145/3772052.3772211},
+   doi = {10.1145/3772052.3772211},
+   abstract = {Cloud-native systems increasingly rely on infrastructure services (e.g., service meshes, monitoring agents), which compete for resources with user applications, thereby degrading performance and scalability. We propose XpuPod, a new abstraction that offloads these services to Data Processing Units (DPUs) to enforce strict isolation while reducing host resource contention and operational costs. XpuPod enables a cross-processing-unit (XPU) network system. This system features two key components: (1) transparent XPU networking, which provides a unified network abstraction for processes spanning both the CPU and DPU, and (2) elastic and efficient XPU communication, a mechanism that achieves shared-memory performance without the costs of pinned resources. By leveraging the XPU network system and the compositional nature of cloud-native workloads, XpuPod can optimally offload infrastructure containers to DPUs. We implement XpuPod on Linux and a corresponding cloud-native system, XpuK8s, on Kubernetes. We evaluate our system using NVIDIA BlueField-2 DPUs and a simulator backed by a CXL memory device. The results show that XpuK8s effectively supports complex, unmodified, commodity cloud-native applications. Compared to a kernel-bypass design, XpuK8s provides up to 31.9x lower latency and consumes 64x fewer resources. Furthermore, compared to state-of-the-art systems, XpuK8s can achieve 60\% lower end-to-end latency and 55\% higher scalability.},
+   booktitle = {Proceedings of the 2025 ACM Symposium on Cloud Computing},
+   pages = {45–58},
+   numpages = {14},
+   keywords = {Cloud-native, Sidecar, XPU, Offloading},
+   location = {
+   },
+   series = {SoCC '25}
 }
