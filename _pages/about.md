@@ -29,7 +29,7 @@ education:
     time: "2019.09 - 2023.06"
 ---
 
-I am a first-year Ph.D. student in the Institute of Parallel and Distributed Systems (IPADS) and School of Artificial Intelligence (SAI) at Shanghai Jiao Tong University University, advised by Haibo Chen and Dong Du.
+I am a second-year Ph.D. student in the Institute of Parallel and Distributed Systems (IPADS) and School of Artificial Intelligence (SAI) at Shanghai Jiao Tong University, advised by Haibo Chen and Dong Du.
 
 My research focuses on designing efficient **training and inference systems for Large Language Models (LLMs)** and developing high-performance operating systems (**OS kernels**).
 
