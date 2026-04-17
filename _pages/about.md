@@ -31,6 +31,6 @@ education:
 
 JK is a second-year Ph.D. student in the Institute of Parallel and Distributed Systems and School of Artificial Intelligence at Shanghai Jiao Tong University, advised by Haibo Chen and Dong Du.
 
-My research focuses on designing efficient **AI systems (mainly hardware-software co-design and low-level technologies)** and developing high-performance operating systems (**mainly OS kernels**).
+JK's research focuses on designing efficient **AI systems (mainly hardware-software co-design and low-level technologies)** and developing high-performance **Operating Systems (mainly OS kernels**).
 
 Reach out to me at hjk020101@sjtu.edu.cn.
