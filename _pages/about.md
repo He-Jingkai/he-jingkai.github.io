@@ -29,8 +29,8 @@ education:
     time: "2019.09 - 2023.06"
 ---
 
-I am a second-year Ph.D. student in the Institute of Parallel and Distributed Systems (IPADS) and School of Artificial Intelligence (SAI) at Shanghai Jiao Tong University, advised by Haibo Chen and Dong Du.
+JK is a second-year Ph.D. student in the Institute of Parallel and Distributed Systems and School of Artificial Intelligence at Shanghai Jiao Tong University, advised by Haibo Chen and Dong Du.
 
-My research focuses on designing efficient **training and inference systems for Large Language Models (LLMs)** and developing high-performance operating systems (**OS kernels**).
+My research focuses on designing efficient **AI systems (mainly hardware-software co-design and low-level technologies)** and developing high-performance operating systems (**mainly OS kernels**).
 
 Reach out to me at hjk020101@sjtu.edu.cn.
