@@ -404,6 +404,46 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Contact links
+
+.contact-links {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+
+  .contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--global-text-color);
+
+    i {
+      width: 1.1rem;
+      color: var(--global-theme-color);
+      text-align: center;
+    }
+  }
+
+  .contact-label {
+    min-width: 3.2rem;
+    font-weight: 500;
+  }
+
+  a {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
@@ -710,6 +750,12 @@ footer.sticky-bottom {
   }
 }
 
+.open-source-contributions {
+  .title {
+    font-weight: bolder;
+  }
+}
+
 // Publications
 
 .publications {
@@ -809,6 +855,12 @@ footer.sticky-bottom {
         color: var(--global-text-color);
         margin-top: 0.25rem;
         font-style: italic;
+
+        &.award-note {
+          color: var(--global-theme-color);
+          font-weight: 700;
+          font-style: normal;
+        }
       }
 
       .links {

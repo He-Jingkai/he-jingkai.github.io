@@ -175,7 +175,7 @@
 
     <!-- Note -->
     {% if entry.note %}
-      <div class="note">
+      <div class="note{% if entry.note contains 'Best Paper' %} award-note{% endif %}">
         {{ entry.note | strip }}
       </div>
     {% endif %}

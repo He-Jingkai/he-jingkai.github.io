@@ -72,6 +72,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Open source contributions -->
+    {% if page.open_source_contributions %}
+      <h2>
+        <a style="color: inherit">Open Source Contributions</a>
+      </h2>
+      {% include open_source_contributions.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

@@ -14,6 +14,19 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
+open_source_contributions:
+  - project: "TileLang"
+    title: "[Feature] Add T.copy_cluster to support TMA multicast and SM-to-SM cluster copy"
+    url: "https://github.com/tile-ai/tilelang/pull/1908"
+    keywords: CUDA kernel, Blackwell
+  - project: "veRL"
+    title: "[Feature, Recipe] Accelerate rollout via model-free speculative decoding"
+    url: "https://github.com/verl-project/verl/pull/4535"
+    keywords: RL infra
+  - project: "vLLM"
+    title: "[Fix] Fix data race in sample_recovered_tokens_kernel (vLLM v1)"
+    url: "https://github.com/vllm-project/vllm/pull/23829"
+
 education:
   - degree: "Ph.D."
     institution: "School of Artificial Intelligence, Shanghai Jiao Tong University"
@@ -31,6 +44,17 @@ education:
 
 JK is a second-year Ph.D. student in the Institute of Parallel and Distributed Systems and School of Artificial Intelligence at Shanghai Jiao Tong University, advised by Haibo Chen and Dong Du.
 
-JK's research focuses on designing efficient **AI systems (mainly hardware-software co-design and low-level technologies)** and developing high-performance **Operating Systems (mainly OS kernels**).
+JK's research focuses on designing efficient **AI systems (mainly hardware-software co-design)** and developing high-performance **Operating Systems (mainly OS kernels and sandboxes)**.
 
-Reach out to JK at hjk020101@sjtu.edu.cn.
+<div class="contact-links">
+  <div class="contact-link">
+    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+    <span class="contact-label">Email</span>
+    <a href="mailto:hjk020101@sjtu.edu.cn">hjk020101@sjtu.edu.cn</a>
+  </div>
+  <div class="contact-link">
+    <i class="fa-brands fa-github" aria-hidden="true"></i>
+    <span class="contact-label">GitHub</span>
+    <a href="https://github.com/he-jingkai/" target="_blank" rel="noopener noreferrer">github.com/he-jingkai</a>
+  </div>
+</div>

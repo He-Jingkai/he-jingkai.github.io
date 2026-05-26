@@ -1,0 +1,23 @@
+<div class="open-source-contributions education">
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for contribution in page.open_source_contributions %}
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-auto">
+            <div class="abbr">
+              <abbr class="badge">{{ contribution.project }}</abbr>
+            </div>
+          </div>
+          <div class="col">
+            <div class="title">
+              <a href="{{ contribution.url }}" target="_blank" rel="noopener noreferrer" style="color: var(--global-text-color)">{{ contribution.title }}</a>
+            </div>
+            {% if contribution.keywords %}
+              <div class="font-weight-light">({{ contribution.keywords }})</div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
