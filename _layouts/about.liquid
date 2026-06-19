@@ -11,7 +11,12 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc">
+      {% if site.chinese_name %}
+        <span class="name-cn-kaiti">({{ site.chinese_name }})</span>
+      {% endif %}
+      {{ page.subtitle }}
+    </p>
   </header>
 
   <article>

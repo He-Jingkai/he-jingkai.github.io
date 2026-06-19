@@ -580,9 +580,28 @@ footer.sticky-bottom {
   }
 }
 
+.name-cn-kaiti {
+  font-family: KaiTi, "STKaiti", "Kaiti SC", "楷体", serif;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
 .post-title {
+  .name-cn-kaiti {
+    display: inline-block;
+    margin-left: 0.6rem;
+    font-size: 0.68em;
+  }
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
+  }
+}
+
+.post-header .desc {
+  .name-cn-kaiti {
+    margin-right: 0.25rem;
+    font-size: 1.12em;
   }
 }
 
