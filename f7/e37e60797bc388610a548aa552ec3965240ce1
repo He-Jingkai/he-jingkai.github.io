@@ -1,0 +1,23 @@
+_bibliography/papers.bib
+  s_5507f0c01e27de::t_e777c096638659 4-17,85
+_layouts/bib.liquid
+  s_5507f0c01e27de::t_0523e88da3d5eb 188-193
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "f7e37e60797bc388610a548aa552ec3965240ce1",
+  "prompts": {},
+  "sessions": {
+    "s_5507f0c01e27de": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e4479-53b6-7873-81c8-2aae4ad1ed57",
+        "model": "unknown"
+      },
+      "human_author": "jingkai he <he-jingkai@outlook.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
